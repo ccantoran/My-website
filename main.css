@@ -444,6 +444,7 @@ h2, h3{
 }
 .box-2{
     border:solid #EF8888;
+    border-radius: 20px;
 }
 .viva{
     background:#EF8888;
