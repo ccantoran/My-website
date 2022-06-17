@@ -55,7 +55,7 @@ nav{
     display: none;
 }
 nav:hover{
-    width:33%;
+    width:40%;
     height:fit-content;
 }
 nav:hover .menu-ops{
@@ -67,6 +67,9 @@ nav:hover .menu-ops{
 }
 nav:hover .nav-div{
     transform: rotate(-180deg);
+}
+.menu-ops{
+    padding-left:10px;
 }
 .menu-ops:hover{
     border-bottom: black dotted 3px;
