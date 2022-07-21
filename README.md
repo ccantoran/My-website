@@ -5,7 +5,7 @@ Check out the live site!
 
 https://catherinecantoran.com/
 
-<img src="github_readme.png" width="650" height="300">
+<img src="github_readme.png" width="625" height="300">
 
 # How it was made
 Tech that was used was primarily HTML & CSS with some Javascript sprinkled on. 
