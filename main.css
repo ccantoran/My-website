@@ -112,21 +112,7 @@ nav:hover .nav-div{
     }
     
 }
-    /* @media (min-width:600px) and (max-width:1400px) {
-        nav:hover{
-            width: 95%;
-        }
-        nav:hover .menu-ops{
-            padding-right: 10px;
-        }
-        nav{
-            z-index: 2;
-        }
-        main>img{
-            z-index: 1;
-        }
-
-    } */
+   
 
 /*////////////////////////////////////////////////////////
                         MAIN PANEL
@@ -397,9 +383,9 @@ main>img, main>ul{
 
 
 
-/*///////////////////////////////////////////////////////
-                PANEL 2 --PORTFOLIO GRID
-///////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////
+                    PANEL 2 --PORTFOLIO GRID
+/////////////////////////////////////////////////////////////////////////*/
 h2, h3{
     border-bottom:#EF8888 solid 4px;
     width: max-content;
@@ -468,8 +454,25 @@ h2, h3{
     padding-top:10px;
 }
 
-/*needs to break at 650*/
-/*change to 2 columns at 900*/
+/* HOVER EFFECTS FOR PIC GRID */
+.box-1, .box-2, .box-3, .box-4, .box-6{
+    position:relative;
+}
+.box1-1, .box2-1, .box3-1, .box4-1, .box6-1{
+    position:absolute;
+    z-index: -1;
+    height:100%;
+    width: 100%;
+    text-align: center;
+    padding: 10%;
+    font-weight: 600;
+}   
+.box-1>a>img:hover, .box-2>a>img:hover, .box-3>a>img:hover, .box-4>a>img:hover,
+.box-6>a>img:hover{
+    opacity: 0.15;
+    transition: 300ms ease;
+}
+
 @media screen and (max-width: 900px){
     .panel-2{
         display: flex;
@@ -563,9 +566,9 @@ h2, h3{
             }
         }
 
-/*/////////////////////////////////////////////////////////
+/*//////////////////////////////////////////////////////////////////////////////
                     PANEL 2B -- DESIGN DOCS
-/////////////////////////////////////////////////////////*/
+//////////////////////////////////////////////////////////////////////////////*/
 
 .panel-2B{
     height:fit-content;
@@ -610,6 +613,10 @@ h2, h3{
     font-size: 12px;
     padding-bottom: 25px;
     padding-top:10px;
+}
+.box-B1, .box-B3, .box-B4, .box-B5, .box-B6{
+    border: #EF8888 2px solid;
+    border-radius:20px;
 }
 .verseuxPlaceHolder{
     color:white;
