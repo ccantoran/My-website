@@ -576,6 +576,9 @@ h2, h3{
     text-align: center;
     scroll-margin-top:6rem;
 }
+.panel-2B>h3{
+    width:fit-content
+}
 .panel-2B>ul{
     list-style-type: none;
     padding-left:0;
