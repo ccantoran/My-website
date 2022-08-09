@@ -450,7 +450,7 @@ h2, h3{
 }
 .box-1a, .box-2a, .box-3a, .box-4a, .box-5a, .box-6a{
     font-size: 12px;
-    padding-bottom: 28px;
+    padding-bottom: 25px;
     padding-top:10px;
 }
 
@@ -577,7 +577,7 @@ h2, h3{
     scroll-margin-top:6rem;
 }
 .panel-2B>h3{
-    width:fit-content
+    white-space: nowrap;
 }
 .panel-2B>ul{
     list-style-type: none;
